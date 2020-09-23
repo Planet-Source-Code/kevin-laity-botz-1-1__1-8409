@@ -1,0 +1,131 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\out
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+instructions.txt=D:\!Projects\botz2\data\instructions.txt
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+instructions.txt=
+D:\!Projects\botz2\presets\AntiGrav.botz=
+D:\!Projects\botz2\presets\Dancer.botz=
+D:\!Projects\botz2\presets\jumper.botz=
+D:\!Projects\botz2\presets\MuscleDemo.botz=
+D:\!Projects\botz2\presets\spike-ball.botz=
+D:\!Projects\botz2\presets\unicycle.botz=
+D:\!Projects\botz2\presets\walker.botz=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\profiles\ryan\desktop\tmp\data\instructions.txt=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\!Projects\botz2\botz.exe=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+D:\!Projects\botz2\data\instructions.txt=Yes
+D:\!Projects\botz2\presets\AntiGrav.botz=Yes
+D:\!Projects\botz2\presets\Dancer.botz=Yes
+D:\!Projects\botz2\presets\jumper.botz=Yes
+D:\!Projects\botz2\presets\MuscleDemo.botz=Yes
+D:\!Projects\botz2\presets\spike-ball.botz=Yes
+D:\!Projects\botz2\presets\unicycle.botz=Yes
+D:\!Projects\botz2\presets\walker.botz=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Profiles\ryan\Desktop\tmp\botz.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\!Projects\botz2\botz.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+D:\!Projects\botz2\data\instructions.txt=$(AppPath)
+D:\!Projects\botz2\presets\AntiGrav.botz=$(AppPath)
+D:\!Projects\botz2\presets\Dancer.botz=$(AppPath)
+D:\!Projects\botz2\presets\jumper.botz=$(AppPath)
+D:\!Projects\botz2\presets\MuscleDemo.botz=$(AppPath)
+D:\!Projects\botz2\presets\spike-ball.botz=$(AppPath)
+D:\!Projects\botz2\presets\unicycle.botz=$(AppPath)
+D:\!Projects\botz2\presets\walker.botz=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Profiles\ryan\Desktop\tmp\botz.exe=No
+D:\!Projects\botz2\botz.exe=No
+D:\!Projects\botz2\data\instructions.txt=No
+D:\!Projects\botz2\presets\AntiGrav.botz=No
+D:\!Projects\botz2\presets\Dancer.botz=No
+D:\!Projects\botz2\presets\jumper.botz=No
+D:\!Projects\botz2\presets\MuscleDemo.botz=No
+D:\!Projects\botz2\presets\spike-ball.botz=No
+D:\!Projects\botz2\presets\unicycle.botz=No
+D:\!Projects\botz2\presets\walker.botz=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Botz 1.1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Botz
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Botz]
+Icon1=botz.exe
+Title1=Botz
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\out
+ProjectFolder=D:\!Projects\botz2
+ServerSideCab=
+File1=d:\out\setup.exe
+File2=d:\out\Setup.Lst
+File3=d:\out\botz.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

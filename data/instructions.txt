@@ -1,0 +1,145 @@
+Instructions
+------------
+
+Botz are made up of vertices (or vertexes) and links.  Vertices
+have mass and are weighed down by gravity.  Links work like springs
+and they bind the vertices together. 
+
+
+
+Let's create a simple object:
+----------------------------
+
+1) First of all, click the New button or select New from the 
+   File menu to clear the scene.
+
+2) Left click anywhere on the "playing field".  This will create  
+   one vertex.
+
+3) Move your mouse around, you will notice that a line attached
+   to the newly created vertex will follow you around.
+
+4) Click anywhere else on the playing field.  This will create
+   a second vertex with a link attaching the two vertices.
+   If you had right clicked here it would cancel the creation of 
+   the link, Leaving one unattached vertex 
+
+5) Make a third Vertex (attached to the second) and then click
+   on the first vertex you made.  You'll notice that you now have
+   a triangle with a vertex at each point.  Right-click to cancel
+   a new link creation and go on to step 5.
+
+6) Click on the simulate button.  It is the fifth from the left on
+   the toolbar.  Its the one with the picture of a green arrow on
+   it.
+
+7) Play with your triangle a little,  you can grab it by its
+   vertices and move it around.  When you're ready to make a new
+   object or edit your current object, click the construct button.
+   The construct button looks like a hammer and a wrench and is the
+   fourth button from the right on the toolbar.
+
+8) Play with the Gravity indicator, it controls how much gravity
+   there is and whether the gravity pulls up or down.
+
+
+
+Making muscles:
+--------------
+
+1) Load or create any object.
+
+2) In construct mode, click on the middle of one of the links.  If 
+   you have trouble finding it, select "Link Handles" from the view
+   menu.
+
+3) Look at the graph in the lower right hand corner of the window.
+   This is the muscle simulator.  Click and drag around on this 
+   window and you'll notice a peak following your cursor around.
+   This peak controls during what time and how hard the muscle will
+   push or pull.  
+   By right clicking and dragging, you can control how gradually
+   the link will reach its longest/shortest state.
+   You should be able to figure this out, I realize this isn't a 
+   very good explanation but it IS pretty hard to explain :)
+
+
+
+Bells and whistles:
+------------------
+
+- The big red X button will delete a link or vertex, whatever is
+  selected at the time.  Remember you must be in contruct mode to
+  select things.
+
+- The box to the left of the muscle simulator will give you extra
+  info on the link or vertex thats selected.  You can type values 
+  into this box as well.
+
+- The Wheel button is next to the delete button.  Select a vertex
+  and try it out.  Wheels have no friction against floors or walls
+  because they spin :)
+
+- The button that looks like a planet is the Global Variables 
+  button.  With it you can change things like Gravity, 
+  Air resistance, Wind, etc etc.  
+
+- You may be wondering about that reset links button.  What that does
+  is make whatever length the link is right now, the links default 
+  length.  The usefullness of this won't be apparent until you go
+  into construct mode and reshape your object, only to have it snap
+  back to its old shape once you click Simulate.
+  Hit reset links after you reshape it and everything will be dandy.
+
+- When you wanna save your stuff hit the save button or select save
+  from the drop down menu.
+
+
+
+What do I do now?
+-----------------
+
+Play around, enjoy yourself.  See if you can make a walker.  
+Also, try out sodaconstructor.  http://www.sodaplay.com
+This program is based on it.  Its java and will load in your
+browser.  The interface is pretty much the same but you can't
+save your robots on it.  (Partly the reason I wrote this ;)
+
+
+
+Future Stuff:
+------------
+
+Dynamic Air Resistance - This should have been in this version
+          but I just couldn't get rid of the bugs.  Basically
+          air resistance applies more to vertices attached to 
+          links that are longer, and which are moving in a 
+          certain direction.
+          Anyways the point of that is that it should allow the
+          creation of bird-bots.  
+          (Bots that flap their wings and fly)
+
+Terrain-  Hills, stairs, etc.  Things that botz can climb over, 
+          hang from, jump over.  For some reason this code is 
+          much harder to devise than the code for the walls and 
+          floor.  It will be awhile, if ever.
+
+Bot Warz- Since I started I've dreamed of having matches where 
+          two bots try to knock each other over.
+          In order for this to work I have to be able to prevent
+          a vertex from passing through a link.  Which is harder
+          to code than it sounds!
+
+
+
+Questions/Comments?
+------------------
+
+Drop me a line at KevinLaity@Cadvision.com.
+Please go easy on the bug reports.  If its not a big deal and you
+can get around it, or if you can't replicate it, don't tell me
+about it.  Thanks :)
+
+On the other hand if you're a programmer and you've made an 
+improvement to the code, don't hesitate to let me know, I'll 
+include it in my code and give you some recognition.
